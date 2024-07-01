@@ -11,6 +11,7 @@ const ChatList = () => {
 	const [chatListAddVisible, setChatListAddVisible] = useState(false);
 	const [selectedChat, setSelectedChat] = useState('');
 	const { data } = useGetChats();
+
 	const { path } = usePath();
 
 	useEffect(() => {
