@@ -1,0 +1,108 @@
+Date : 2024-07-05 11:30:15
+Directory : c:\Users\damar\latihan\chatter-ui\src
+Total : 58 files,  1630 codes, 64 comments, 266 blanks, all 1960 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX |         21 |        992 |          3 |        102 |      1,097 |
+| TypeScript     |         36 |        631 |         61 |        164 |        856 |
+| CSS            |          1 |          7 |          0 |          0 |          7 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                           | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                              |         58 |      1,630 |         64 |        266 |      1,960 |
+| . (Files)                                                                                      |          5 |         82 |          8 |         14 |        104 |
+| cache                                                                                          |          2 |         42 |          0 |          4 |         46 |
+| components                                                                                     |         20 |        931 |          0 |         93 |      1,024 |
+| components (Files)                                                                             |          1 |         29 |          0 |          3 |         32 |
+| components\auth                                                                                |          4 |        164 |          0 |         21 |        185 |
+| components\chat                                                                                |          1 |        141 |          0 |          8 |        149 |
+| components\chat-list                                                                           |          5 |        241 |          0 |         23 |        264 |
+| components\chat-list (Files)                                                                   |          1 |         85 |          0 |          8 |         93 |
+| components\chat-list\chat-list-add                                                             |          1 |         80 |          0 |          8 |         88 |
+| components\chat-list\chat-list-header                                                          |          1 |         17 |          0 |          3 |         20 |
+| components\chat-list\chat-list-item                                                            |          2 |         59 |          0 |          4 |         63 |
+| components\header                                                                              |          6 |        261 |          0 |         25 |        286 |
+| components\header (Files)                                                                      |          4 |        165 |          0 |         17 |        182 |
+| components\header\mobile                                                                       |          2 |         96 |          0 |          8 |        104 |
+| components\home                                                                                |          1 |          4 |          0 |          2 |          6 |
+| components\profile                                                                             |          1 |         52 |          0 |          5 |         57 |
+| components\snackbar                                                                            |          1 |         39 |          0 |          6 |         45 |
+| constants                                                                                      |          7 |         82 |          0 |         18 |        100 |
+| fragments                                                                                      |          2 |         24 |          0 |          4 |         28 |
+| gql                                                                                            |          3 |        191 |         56 |         65 |        312 |
+| hooks                                                                                          |         13 |        239 |          0 |         57 |        296 |
+| interfaces                                                                                     |          2 |          9 |          0 |          3 |         12 |
+| models                                                                                         |          2 |          7 |          0 |          3 |         10 |
+| utils                                                                                          |          2 |         23 |          0 |          5 |         28 |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                       | language       | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\damar\latihan\chatter-ui\src\App.tsx                                                  | TypeScript JSX |         55 |          0 |          6 |         61 |
+| c:\Users\damar\latihan\chatter-ui\src\cache\latest-message.ts                                  | TypeScript     |         23 |          0 |          2 |         25 |
+| c:\Users\damar\latihan\chatter-ui\src\cache\messages.ts                                        | TypeScript     |         19 |          0 |          2 |         21 |
+| c:\Users\damar\latihan\chatter-ui\src\components\Routes.tsx                                    | TypeScript JSX |         29 |          0 |          3 |         32 |
+| c:\Users\damar\latihan\chatter-ui\src\components\auth\Auth.tsx                                 | TypeScript JSX |         61 |          0 |          6 |         67 |
+| c:\Users\damar\latihan\chatter-ui\src\components\auth\Guard.tsx                                | TypeScript JSX |         26 |          0 |          7 |         33 |
+| c:\Users\damar\latihan\chatter-ui\src\components\auth\Login.tsx                                | TypeScript JSX |         19 |          0 |          4 |         23 |
+| c:\Users\damar\latihan\chatter-ui\src\components\auth\Signup.tsx                               | TypeScript JSX |         58 |          0 |          4 |         62 |
+| c:\Users\damar\latihan\chatter-ui\src\components\chat-list\ChatList.tsx                        | TypeScript JSX |         85 |          0 |          8 |         93 |
+| c:\Users\damar\latihan\chatter-ui\src\components\chat-list\chat-list-add\ChatListAdd.tsx       | TypeScript JSX |         80 |          0 |          8 |         88 |
+| c:\Users\damar\latihan\chatter-ui\src\components\chat-list\chat-list-header\ChatListHeader.tsx | TypeScript JSX |         17 |          0 |          3 |         20 |
+| c:\Users\damar\latihan\chatter-ui\src\components\chat-list\chat-list-item\ChatListItem.css     | CSS            |          7 |          0 |          0 |          7 |
+| c:\Users\damar\latihan\chatter-ui\src\components\chat-list\chat-list-item\ChatListItem.tsx     | TypeScript JSX |         52 |          0 |          4 |         56 |
+| c:\Users\damar\latihan\chatter-ui\src\components\chat\Chat.tsx                                 | TypeScript JSX |        141 |          0 |          8 |        149 |
+| c:\Users\damar\latihan\chatter-ui\src\components\header\Branding.tsx                           | TypeScript JSX |         29 |          0 |          3 |         32 |
+| c:\Users\damar\latihan\chatter-ui\src\components\header\Header.tsx                             | TypeScript JSX |         46 |          0 |          5 |         51 |
+| c:\Users\damar\latihan\chatter-ui\src\components\header\Navigation.tsx                         | TypeScript JSX |         23 |          0 |          4 |         27 |
+| c:\Users\damar\latihan\chatter-ui\src\components\header\Settings.tsx                           | TypeScript JSX |         67 |          0 |          5 |         72 |
+| c:\Users\damar\latihan\chatter-ui\src\components\header\mobile\MobileBranding.tsx              | TypeScript JSX |         30 |          0 |          3 |         33 |
+| c:\Users\damar\latihan\chatter-ui\src\components\header\mobile\MobileNavigation.tsx            | TypeScript JSX |         66 |          0 |          5 |         71 |
+| c:\Users\damar\latihan\chatter-ui\src\components\home\Home.tsx                                 | TypeScript JSX |          4 |          0 |          2 |          6 |
+| c:\Users\damar\latihan\chatter-ui\src\components\profile\Profile.tsx                           | TypeScript JSX |         52 |          0 |          5 |         57 |
+| c:\Users\damar\latihan\chatter-ui\src\components\snackbar\Snackbar.tsx                         | TypeScript JSX |         39 |          0 |          6 |         45 |
+| c:\Users\damar\latihan\chatter-ui\src\constants\apollo-client.ts                               | TypeScript     |         63 |          0 |          8 |         71 |
+| c:\Users\damar\latihan\chatter-ui\src\constants\authenticated.ts                               | TypeScript     |          2 |          0 |          1 |          3 |
+| c:\Users\damar\latihan\chatter-ui\src\constants\error.ts                                       | TypeScript     |          8 |          0 |          3 |         11 |
+| c:\Users\damar\latihan\chatter-ui\src\constants\excluded-routes.ts                             | TypeScript     |          2 |          0 |          2 |          4 |
+| c:\Users\damar\latihan\chatter-ui\src\constants\page-size.ts                                   | TypeScript     |          1 |          0 |          0 |          1 |
+| c:\Users\damar\latihan\chatter-ui\src\constants\snack.ts                                       | TypeScript     |          3 |          0 |          2 |          5 |
+| c:\Users\damar\latihan\chatter-ui\src\constants\urls.ts                                        | TypeScript     |          3 |          0 |          2 |          5 |
+| c:\Users\damar\latihan\chatter-ui\src\fragments\chat.fragment.ts                               | TypeScript     |         10 |          0 |          2 |         12 |
+| c:\Users\damar\latihan\chatter-ui\src\fragments\message.fragment.ts                            | TypeScript     |         14 |          0 |          2 |         16 |
+| c:\Users\damar\latihan\chatter-ui\src\gql\gql.ts                                               | TypeScript     |         29 |         53 |          5 |         87 |
+| c:\Users\damar\latihan\chatter-ui\src\gql\graphql.ts                                           | TypeScript     |        161 |          3 |         60 |        224 |
+| c:\Users\damar\latihan\chatter-ui\src\gql\index.ts                                             | TypeScript     |          1 |          0 |          0 |          1 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useCountChats.ts                                   | TypeScript     |         17 |          0 |          5 |         22 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useCountMessages.ts                                | TypeScript     |         18 |          0 |          5 |         23 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useCreateChat.ts                                   | TypeScript     |         29 |          0 |          4 |         33 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useCreateMessage.ts                                | TypeScript     |         22 |          0 |          4 |         26 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useCreateUser.ts                                   | TypeScript     |         14 |          0 |          4 |         18 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useGetChat.ts                                      | TypeScript     |         14 |          0 |          4 |         18 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useGetChats.ts                                     | TypeScript     |         14 |          0 |          4 |         18 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useGetMe.ts                                        | TypeScript     |         15 |          0 |          4 |         19 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useGetMessages.ts                                  | TypeScript     |         14 |          0 |          4 |         18 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useLogin.ts                                        | TypeScript     |         32 |          0 |          7 |         39 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useLogout.ts                                       | TypeScript     |         13 |          0 |          4 |         17 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\useMessageCreated.ts                               | TypeScript     |         25 |          0 |          3 |         28 |
+| c:\Users\damar\latihan\chatter-ui\src\hooks\usePath.ts                                         | TypeScript     |         12 |          0 |          5 |         17 |
+| c:\Users\damar\latihan\chatter-ui\src\index.tsx                                                | TypeScript JSX |         13 |          3 |          3 |         19 |
+| c:\Users\damar\latihan\chatter-ui\src\interfaces\page.interface.ts                             | TypeScript     |          4 |          0 |          1 |          5 |
+| c:\Users\damar\latihan\chatter-ui\src\interfaces\snack-message.interface.ts                    | TypeScript     |          5 |          0 |          2 |          7 |
+| c:\Users\damar\latihan\chatter-ui\src\models\AbstractModel.ts                                  | TypeScript     |          3 |          0 |          1 |          4 |
+| c:\Users\damar\latihan\chatter-ui\src\models\User.ts                                           | TypeScript     |          4 |          0 |          2 |          6 |
+| c:\Users\damar\latihan\chatter-ui\src\react-app-env.d.ts                                       | TypeScript     |          0 |          1 |          1 |          2 |
+| c:\Users\damar\latihan\chatter-ui\src\reportWebVitals.ts                                       | TypeScript     |         13 |          0 |          3 |         16 |
+| c:\Users\damar\latihan\chatter-ui\src\setupTests.ts                                            | TypeScript     |          1 |          4 |          1 |          6 |
+| c:\Users\damar\latihan\chatter-ui\src\utils\error.ts                                           | TypeScript     |         15 |          0 |          3 |         18 |
+| c:\Users\damar\latihan\chatter-ui\src\utils\logout.ts                                          | TypeScript     |          8 |          0 |          2 |         10 |
+| Total                                                                                          |                |      1,630 |         64 |        266 |      1,960 |
++------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
